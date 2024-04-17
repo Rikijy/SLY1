@@ -6,9 +6,9 @@
 // @author       SLY w/ Contributions by niofox, SkyLove512, anthonyra
 // @match        https://*.based.staratlas.com/
 // @require      https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/anchor-browserified.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/buffer-browserified.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/bs58-browserified.js
+// @require      https://raw.githubusercontent.com/Rikijy/SLY1/main/anchor-browserified.js
+// @require      https://raw.githubusercontent.com/Rikijy/SLY1/main/buffer-browserified.js
+// @require      https://raw.githubusercontent.com/Rikijy/SLY1/main/bs58-browserified.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=staratlas.com
 // @grant        GM_setValue
 // @grant        GM_getValue
@@ -22,7 +22,8 @@
 	let customReadRPCs = [];
 
 	//Used for pushing transactions to solana chain
-	let customWriteRPCs = [];
+	let customWriteRPCs = ['https://special-flashy-pool.solana-mainnet.quiknode.pro/357e646e92206c34096596f2e65225db9599c7fc/'
+			      ];
 
     let saRPCs = [
         'https://twilight-autumn-diagram.solana-mainnet.quiknode.pro/4fc53d638efd1cc0f80764bc457944bb325d1ff1', //Quicknode
